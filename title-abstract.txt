@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Predicting Drug Resistance in Malaria Using Language Models
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Malaria remains a significant global health challenge, with drug resistance emerging as a major concern due to genetic mutations in Plasmodium falciparum, the parasite responsible for malaria. Predicting mutations in malaria genomes is crucial for understanding drug resistance mechanisms and improving treatment strategies. In this paper, we propose a transformer-based approach to predict mutations in genomic sequences using BERT-like models trained on its DNA sequences. We preprocess the reference genome of the 3D7 strain by segmenting it into fixed-length k-mers suitable for transformer-based training. Our model’s predictive capabilities are evaluated against DNABERT, a transformer model pre-trained on human DNA sequences, to assess its ability to capture sequence dependencies and potential mutations. Preliminary findings indicate that variations in nucleotide composition and k-mer distributions are correlated with mutation-prone regions. The study aims to enhance computational genomics approaches in malaria research, offering insights into mutation prediction and its implications for drug resistance. Future work will focus on fine-tuning transformer architectures for improved mutation classification and integrating experimental validation to strengthen predictive accuracy.
